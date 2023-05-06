@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Testing Github localy') {
             steps {
-                dir('C:\Users\Alili\OneDrive\Skrivbord\Tester_Zalando'){
+                dir('C:/Users/Alili/OneDrive/Skrivbord/Tester_Zalando'){
                     bat 'python -m pytest'
             }
         }
